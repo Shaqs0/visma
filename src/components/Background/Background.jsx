@@ -12,6 +12,9 @@ function Background() {
 			<div className={styles.other}></div>
 			<div className={styles.buttons}>
 				<button className={styles.big_button}></button>
+				<button className={styles.big_button}></button>
+				<button className={styles.big_button}></button>
+				<button className={styles.big_button}></button>
 			</div>
 		</>
 	);
