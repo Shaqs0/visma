@@ -1,3 +1,40 @@
+.head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: auto;
+}
+
 .logo{
-    width: 280px;
+    display: flex;
+    padding: 1% 10%;
+}
+
+.text{
+    display: flex;
+    gap: 8%;
+    white-space: nowrap;
+}
+
+.input{
+    display: flex;
+    border: none;
+    background: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Source Sans 3', sans-serif;
+    border-bottom: 1px solid #9c9c9c;;
+    color: black;
+    margin-left: 7%;
+    text-align: center;
+}
+
+.icon{
+    margin-left: 100%;
+}
+
+.select{
+    margin-left: 17%;
 }
