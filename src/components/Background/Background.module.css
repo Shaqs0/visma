@@ -1,4 +1,47 @@
-.picture {
+.picture_container {
+    position: relative;
     max-width: 100%;
+    max-height: 100%;
     margin-top: 1%;
 }
+
+.texth1 {
+    position: absolute;
+    top: 35%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    color: var(--white, #FFF);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    width: 500px;
+    display: block;
+}
+
+
+.texth3 {
+    position: absolute;
+    margin-top: 5%;
+    top: 43%; 
+    left: 26%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 24px; 
+    color: var(--white, #FFF);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 350px;
+    display: block;
+}
+
+.buttons {
+    position: absolute;
+}
+
