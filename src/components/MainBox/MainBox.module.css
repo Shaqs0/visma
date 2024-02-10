@@ -1,0 +1,87 @@
+.body{
+    gap: 55%;
+    margin-left: 17%;
+    margin-right: 25%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 1280px;
+    height: 650px;
+}
+
+.box_text{
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    word-wrap: break-word;
+    width: 280px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--purple, #3D348B);
+    line-height: 140%; /* 22.4px */
+    
+}
+
+.h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 56px */
+}
+
+.near_text,
+.near_text2,
+.near_text3 {
+    display: flex;
+    padding: 8px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--blue, #5DB7DE);
+    color: var(--white, #FFF);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 1.3px;
+    align-items: center;
+}
+
+.near_text {
+    margin-left: 24%;
+    margin-top: 5%;
+}
+
+.near_text2 {
+    margin-left: 24%;
+    margin-top: 2.5%;
+}
+
+.near_text3 {
+    margin-left: 24%;
+    margin-top: 2%;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 75px;
+    margin-left: 45%; /* Удаляем это свойство или комментируем */
+}
+
+.big_button {
+    border-radius: 20px;
+    background: var(--purple, #3D348B);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -50px; /* Пример отрицательного отступа вверх */
+}
