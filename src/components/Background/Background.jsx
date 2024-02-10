@@ -14,10 +14,14 @@ function Background() {
 			</div>
 			<img className={styles.other_pic} src='/Component 1.svg'></img>
 			<div className={styles.buttons}>
-				<button className={styles.big_button}>Услуги</button>
-				<button className={styles.big_button}>Услуги</button>
-				<button className={styles.big_button}>Услуги</button>
-				<button className={styles.big_button}>Услуги</button>
+				<button className={styles.big_button}> <span className={styles.text1}>Текст 1</span>
+					<span className={styles.text2}>Текст 2</span></button>
+				<button className={styles.big_button}> <span className={styles.text1}>Текст 1</span>
+					<span className={styles.text2}>Текст 2</span></button>
+				<button className={styles.big_button}> <span className={styles.text1}>Текст 1</span>
+					<span className={styles.text2}>Текст 2</span></button>
+				<button className={styles.big_button}> <span className={styles.text1}>Текст 1</span>
+					<span className={styles.text2}>Текст 2</span></button>
 			</div>
 		</>
 	);

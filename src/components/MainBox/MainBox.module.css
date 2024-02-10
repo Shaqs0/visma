@@ -1,11 +1,10 @@
 .body{
-    gap: 55%;
     margin-left: 17%;
     margin-right: 25%;
-    margin-top: 6%;
-    margin-bottom: 6%;
+    margin-top: 7%;
+    margin-bottom: 7%;
     width: 1280px;
-    height: 650px;
+    height: 1000px;
 }
 
 .box_text{
@@ -71,8 +70,9 @@
 .buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 75px;
-    margin-left: 45%; /* Удаляем это свойство или комментируем */
+    grid-gap: 25px;
+    margin-left: 45%;
+    margin-top: -22%; /* Добавим отступ сверху для контейнера с кнопками */
 }
 
 .big_button {
@@ -83,5 +83,27 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: -50px; /* Пример отрицательного отступа вверх */
+    align-self: flex-start; /* Изменяем способ позиционирования кнопок */
+}
+
+.text1{
+    color: var(--white, #FFF);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+.text2{
+    font-family: 'PT Sans', sans-serif;
+    color: var(--white, #FFF);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 26.6px */
+    margin-top: 33%;
 }
