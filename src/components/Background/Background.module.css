@@ -86,4 +86,25 @@ body{
 }
 
 
+.text1{
+    color: var(--white, #FFF);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
 
+.text2{
+    font-family: 'PT Sans', sans-serif;
+    color: var(--white, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 26.6px */
+    margin-top: 15%;
+    
+}

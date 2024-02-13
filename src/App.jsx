@@ -4,6 +4,7 @@ import TopPanel from './layouts/TopPanel/TopPanel';
 import Body from './layouts/Body/Body';
 import Background from './components/Background/Background';
 import MainBox from './components/MainBox/MainBox';
+import BeforeBottom from './components/BeforeBottom/BeforeBottom';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 			<Body>
 				<Background/>
 				<MainBox/>
+				<BeforeBottom/>
 			</Body>
 		</div>
 	);
