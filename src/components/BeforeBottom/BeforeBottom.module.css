@@ -40,24 +40,23 @@
     padding-right: 9%;
 }
 
-.btn{
+.btn {
     display: flex;
-    margin-top: 7%;
+    flex-direction: column; 
+    margin-top: 7%; 
     height: 200px;
     width: 530px;
     border-radius: 20px;
     background: var(--blue, #5DB7DE);
     padding: 30px 35px;
-
-    
 }
 
 .text1 {
     font-family: 'PT Sans', sans-serif;
     color: var(--white, #FFF);
-    font-size: 13px;
+    font-size: 11px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 140%; /* 18.2px */
     letter-spacing: 1.3px;
     text-transform: uppercase;
@@ -66,8 +65,9 @@
 .text2 {
     font-family: 'PT Sans', sans-serif;
     color: var(--white, #FFF);
-    font-size: 19px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 140%; /* 26.6px */
+    padding-top: 20%;
 }
