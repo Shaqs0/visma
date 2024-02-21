@@ -1,0 +1,83 @@
+.body {
+    padding: 14%;
+    padding-top: 9%;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.h1{
+    color: var(--black, #333);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: start;
+}
+
+.p{
+    color: var(--purple, #3D348B);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    padding-left: 70%;
+    white-space: nowrap;
+    padding-top: 1.7%;
+}
+
+.picture{
+    padding-left: 1%;
+    padding-top: 1.5%;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Создаем гибкий сет для изображений */
+    padding-top: 5%;
+    gap:25px
+}
+
+.date { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Создаем гибкий сет для изображений */
+    padding-top: 1%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    gap:15px
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Создаем гибкий сет для изображений */ 
+    color: var(--black, #333);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -1%;
+    gap: 15px;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Создаем гибкий сет для изображений */ 
+    color: var(--black, #333);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    margin-top: -2%;
+    gap: 15px;
+}

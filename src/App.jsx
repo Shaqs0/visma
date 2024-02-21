@@ -5,6 +5,7 @@ import Body from './layouts/Body/Body';
 import Background from './components/Background/Background';
 import MainBox from './components/MainBox/MainBox';
 import BeforeBottom from './components/BeforeBottom/BeforeBottom';
+import News from './components/News/News';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 				<Background/>
 				<MainBox/>
 				<BeforeBottom/>
+				<News/>
 			</Body>
 		</div>
 	);
