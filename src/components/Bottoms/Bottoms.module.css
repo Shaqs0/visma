@@ -1,0 +1,16 @@
+.pre_bottom {
+    background-color: #3D348B;
+    opacity: 0.85;
+    padding-top: 2%;
+}
+
+.logo{
+    display: flex;
+    padding-bottom: 2%;
+    padding-left: 47%; 
+}
+
+.icon_location {
+    display: flex;
+    justify-content: center;
+}

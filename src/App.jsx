@@ -6,6 +6,8 @@ import Background from './components/Background/Background';
 import MainBox from './components/MainBox/MainBox';
 import BeforeBottom from './components/BeforeBottom/BeforeBottom';
 import News from './components/News/News';
+import Bottom from './layouts/Bottom/Bottom';
+import Bottoms from './components/Bottoms/Bottoms';
 
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
 				<BeforeBottom/>
 				<News/>
 			</Body>
+			<Bottom>
+				<Bottoms/>
+			</Bottom>
 		</div>
 	);
 }
